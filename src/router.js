@@ -31,7 +31,17 @@ export default new Router({
       component: () =>
         import(
           /* webpackChunkName: "about" */ './modules/Transition/Pages/Transition.vue'
-        )
+        ),
+      children: [
+        {
+          path: 'sample1',
+          name: 'sample1',
+          component: () =>
+            import(
+              /* webpackChunkName: "about" */ './modules/Transition/Pages/Sample1.vue'
+            )
+        }
+      ]
     }
   ]
 })
