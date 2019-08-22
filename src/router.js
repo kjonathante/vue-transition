@@ -40,6 +40,30 @@ export default new Router({
             import(
               /* webpackChunkName: "about" */ './modules/Transition/Pages/Sample1.vue'
             )
+        },
+        {
+          path: 'CSSTransitions',
+          name: 'CSSTransitions',
+          component: () =>
+            import(
+              /* webpackChunkName: "about" */ './modules/Transition/Pages/CSSTransitions.vue'
+            )
+        },
+        {
+          path: 'CSSAnimations',
+          name: 'CSSAnimations',
+          component: () =>
+            import(
+              /* webpackChunkName: "about" */ './modules/Transition/Pages/CSSAnimations.vue'
+            )
+        },
+        {
+          path: 'CustomTransitionClasses',
+          name: 'CustomTransitionClasses',
+          component: () =>
+            import(
+              /* webpackChunkName: "about" */ './modules/Transition/Pages/CustomTransitionClasses.vue'
+            )
         }
       ]
     }
