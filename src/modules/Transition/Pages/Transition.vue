@@ -13,6 +13,9 @@
       <router-link v-bind:to="{ name: 'CustomTransitionClasses' }"
         >Custom Transition Classes</router-link
       >
+      <router-link v-bind:to="{ name: 'JavaScriptHooks' }"
+        >JavaScript Hooks</router-link
+      >
     </nav>
     <router-view />
   </div>

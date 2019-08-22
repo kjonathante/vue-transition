@@ -64,6 +64,14 @@ export default new Router({
             import(
               /* webpackChunkName: "about" */ './modules/Transition/Pages/CustomTransitionClasses.vue'
             )
+        },
+        {
+          path: 'JavaScriptHooks',
+          name: 'JavaScriptHooks',
+          component: () =>
+            import(
+              /* webpackChunkName: "about" */ './modules/Transition/Pages/JavaScriptHooks.vue'
+            )
         }
       ]
     }
