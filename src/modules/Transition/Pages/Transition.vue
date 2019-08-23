@@ -16,6 +16,12 @@
       <router-link v-bind:to="{ name: 'JavaScriptHooks' }"
         >JavaScript Hooks</router-link
       >
+      <router-link v-bind:to="{ name: 'ListEnteringLeavingTransitions' }"
+        >List Entering/Leaving Transitions</router-link
+      >
+      <router-link v-bind:to="{ name: 'ListMoveTransitions' }"
+        >List Move Transitions</router-link
+      >
     </nav>
     <router-view />
   </div>

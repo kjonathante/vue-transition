@@ -72,6 +72,22 @@ export default new Router({
             import(
               /* webpackChunkName: "about" */ './modules/Transition/Pages/JavaScriptHooks.vue'
             )
+        },
+        {
+          path: 'ListEnteringLeavingTransitions',
+          name: 'ListEnteringLeavingTransitions',
+          component: () =>
+            import(
+              /* webpackChunkName: "about" */ './modules/Transition/Pages/ListEnteringLeavingTransitions.vue'
+            )
+        },
+        {
+          path: 'ListMoveTransitions',
+          name: 'ListMoveTransitions',
+          component: () =>
+            import(
+              /* webpackChunkName: "about" */ './modules/Transition/Pages/ListMoveTransitions.vue'
+            )
         }
       ]
     }
