@@ -1,11 +1,13 @@
 <template>
   <div>
-    <h1>Sample 1</h1>
+    <h3>Sample 1</h3>
 
-    <button v-on:click="show = !show">Toggle</button>
-    <transition name="fade">
-      <p v-if="show">hello</p>
-    </transition>
+    <div>
+      <button v-on:click="show = !show">Toggle</button>
+      <transition name="fade">
+        <p v-if="show">hello</p>
+      </transition>
+    </div>
   </div>
 </template>
 <script>

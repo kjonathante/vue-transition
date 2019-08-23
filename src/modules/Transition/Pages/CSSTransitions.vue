@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>CSS Transitions</h1>
+    <h3>CSS Transitions</h3>
 
     <button @click="show = !show">Toggle render</button>
     <transition name="slide-fade">

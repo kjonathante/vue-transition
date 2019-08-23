@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>CSS Animations</h1>
+    <h3>CSS Animations</h3>
 
     <button @click="show = !show">Toggle show</button>
     <transition name="bounce">

@@ -2,7 +2,7 @@
   <div>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script> -->
 
-    <h1>JavaScript Hooks</h1>
+    <h3>JavaScript Hooks</h3>
     <button @click="show = !show">Toggle</button>
     <transition
       v-on:before-enter="beforeEnter"

@@ -6,7 +6,7 @@
       type="text/css"
     />
 
-    <h1>Custom Transition Classes</h1>
+    <h3>Custom Transition Classes</h3>
     <div class="demo">
       <button @click="show = !show">Toggle render</button>
       <transition

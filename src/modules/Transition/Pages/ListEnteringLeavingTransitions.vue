@@ -1,13 +1,11 @@
 <template>
   <div>
-    <h2>List Entering/Leaving Transitions</h2>
+    <h3>List Entering/Leaving Transitions</h3>
     <div>
       <button v-on:click="add">Add</button>
       <button v-on:click="remove">Remove</button>
       <transition-group name="list" tag="p">
-        <span v-for="item in items" v-bind:key="item" class="list-item">
-          {{ item }}
-        </span>
+        <span v-for="item in items" v-bind:key="item" class="list-item">{{ item }}</span>
       </transition-group>
     </div>
   </div>

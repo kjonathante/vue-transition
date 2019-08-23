@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>List Move Transitions</h2>
+    <h3>List Move Transitions</h3>
     <div>
       <button v-on:click="shuffle">Shuffle</button>
       <transition-group name="flip-list" tag="ul">
